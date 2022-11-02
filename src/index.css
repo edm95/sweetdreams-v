@@ -12,11 +12,6 @@
   --bg-color: #c9d5e0;
 }
 
-html,
-body {
-  width: 100vw;
-}
-
 body {
   margin: 0;
 }
@@ -102,6 +97,14 @@ a {
   width: 200px;
   height: 350px;
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience .logo{
+
 }
 
 hr {
